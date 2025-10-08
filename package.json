@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npx @tailwindcss/cli -i ./src/css/style.css -o ./src/css/output.css --watch",
-    "build": "npx @tailwindcss/cli -i ./src/css/style.css -o ./src/css/output.css",
-    "start": "npx serve ./src"
+    "dev": "npx @tailwindcss/cli -i ./public/css/style.css -o ./public/css/output.css --watch",
+    "build": "npx @tailwindcss/cli -i ./public/css/style.css -o ./public/css/output.css",
+    "start": "npx serve ./public"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.14",
